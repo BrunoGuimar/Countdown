@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@300;400;500&family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+  }
+*{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body, html{
+    overflow: hidden;
+    height: 100%;
+}
+
+/* BACKGROUNDS */
+body header img{
+    position: absolute;
+    width: 100%;
+    top: -10px;
+}
+body main img{
+   position: absolute;
+   top: 20%;
+   right: 5%; 
+   width: 800px;
+}
+body footer img{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+/* BACKGROUNDS */
+
+/* Main Section */
+div.maxwidth{
+    max-width: 1920px;
+    max-height: 1080px;
+}
+main{
+    margin: 15% auto;
+    text-align: center;
+}
+main div.tittle{
+    color: var(--purple);
+    letter-spacing: 1px;
+    font-size: 31px;
+    margin-bottom: 10px;
+}
+main div table{
+    margin: 0 auto;
+}
+main div table tr:nth-child(1){
+    color: var(--text-color)
+}
+main div table tr:nth-child(2){
+    font-size: 91px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.753);
+}
+main div.text{
+    color: var(--purple);
+    margin-top: 30px;
+    font-size: 19px;
+}
+main div input[type="button"]{
+    width: 160px;
+    height: 46px;
+    color: white;
+    background-color: var(--purple);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size: 18px;
+}
+main div input[type="button"]:hover{
+    color: rgb(46, 44, 44);
+    transition: all 0.5s;
+}
+/* Main Section */
+
